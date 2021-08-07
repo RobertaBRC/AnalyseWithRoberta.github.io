@@ -1,4 +1,4 @@
-## Data Analyst Portolio Project
+Data Analyst Portolio Project
 
 Purpose: share projects developed using technologies such as SQL, Python and Power BI.
 
