@@ -9,4 +9,4 @@ Credits:
 		Template 'Massively' was used to create this portfolio project website
 
 	Alex Freberg (YouTube channel: Alex The Analyst):
-		Video reference: https://www.youtube.com/watch?v=ocdwh0KYeUs 
+		https://www.youtube.com/watch?v=ocdwh0KYeUs 
