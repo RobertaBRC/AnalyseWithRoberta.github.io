@@ -1,106 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-  font-family: arial, verdana;
-  border-collapse: collapse;
-  width: 95%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-</head>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+  </head>
 <body>
-<h2>Learning Resources</h2>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Back</a>
+  </div>
+</div>
 
 <!-- <p><font face="Arial" size="3px">Most of what I have learnt in the data space so far has been through self-study.</font></p> -->
-<font face="Arial" size="3px">
-  <p>Most of what I've learned in the data space so far has been through self-learning. But it wouldn't have been possible without the help of many skilled and generous professionals out there. <p>Here are some of the invaluable resources I've come across throughout my journey (most of them are freely available).</p>
-  <p>I hope you find them useful and remember: <b>never stop learning</b>!</p>
-</font>
 
-
-<table>
-  <tr>
-    <th>General Data Analysis Content</th>
-  </tr>
-  <tr>
-    <td>
-    <a href="https://www.youtube.com/channel/UC7cs8q-gJRlGwj4A8OmCmXg" target="_blank" rel="noopener noreferrer">Alex The Analyst</a>
-    <p>In his channel, Alex Freberg shares precious tips that both new and more experienced Data Analysts can benefit from. It includes SQL tutorials, suggestions and clear guidance on how to build a portfolio, course recommendations, and much more.
-
-    <p></p><a href="https://www.mavenanalytics.io/" target="_blank" rel="noopener noreferrer">Maven Analytics</a>
-    <p>Fantastic Data Analytics content delivered in an organised and clear fashion. They have their own platform, but you can also find them in other platforms such as Udemy, LinkedIn Learning and YouTube.</p>
-    </td>
-
-  <tr>
-    <th><br>Microsoft Power BI</th></br></th>
-  </tr>
-  <tr>
-  <td>
-   <a href="https://www.youtube.com/channel/UCJ7UhloHSA4wAqPzyi6TOkw" target="_blank" rel="noopener noreferrer">Curbal</a>
-    <p>Ruth Pozuelo is a Microsoft Data Platform MVP. Her YouTube channel, <b>Curbal</b>, has tone of information on Power BI, including her view on new features, tips on DAX, M, and so on.</p>
-
-    <a href="https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w" target="_blank" rel="noopener noreferrer">Guy in a Cube</a>
-    <p>Similarly to Curbal, this channel is likely to have almost everything you need to know about Power BI.</p>
-
-    <a href="https://www.sqlbi.com/" target="_blank" rel="noopener noreferrer">sqlbi</a>
-    <p>sqlbi is managed by the Power BI experts Marco Russo and Alberto Ferrari. The content they produce is great, especially when it comes to DAX and data modeling.</p>
-
-  </td>
-
-  <tr>
-  <th><br>Microsoft Technologies</th></br></th>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://docs.microsoft.com/en-us/learn/" target="_blank" rel="noopener noreferrer">Microsoft Learn</a>
-      <p>I use Microsoft Learn for both preparing for certifications and brushing up on certain solutions. </p>
-      <p>I didn't used to be a big fan of Microsoft's documentation, but I have to admit that Microsoft has been doing a great job at improving its training materials and delivery methods.</p>
-      <p>Microsoft Learn is becoming more engaging and relevant each day. Some of its learning paths even include labs, which I find extremely helpful.</p>
-    
-    </td>
-  </tr>
-
-
-  <tr>
-    <th><br>SQL</th></br></th>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.khanacademy.org/computing/computer-programming/sql?ref=resume_learning#sql-basics" target="_blank" rel="noopener noreferrer">khan Academy</a>
-        <p>There are plenty of high quality courses freely available on this platform and <b>SQL basics</b> is one of them.</p> 
-      </td>
-    </tr>
   
+<!-- Main content: shift it to the right by 240 pixels -->
+<div class="w3-main" style="margin-left:240px">
 
-<tr>
-  <th><br>Python</th></br></th>
-</tr>
-<tr>
-<td>
-  <a href="https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g" target="_blank" rel="noopener noreferrer">Corey Schafer</a>
-  <p>This is one of those channels I wish I had found earlier. 
-  <p>Learning a programming language is often an overwhelming experience, at least it has been the case for me. Finding professionals like Corey Schafer, whith such clear explanations has definetely helped make my learning journey a bit less bumpy and I wish more people can benefit from his work.</p>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+     <h1 class="w3-text-black">Never stop learning</h1>
+      <p>Most of what I've learned in the data space so far has been through self-learning. But it wouldn't have been possible without the help of many skilled and generous professionals out there. Here are some great resources I've come across throughout my journey (most of them are freely available). I hope you find them useful!</p>
+    </div>
 
- <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" target="_blank" rel="noopener noreferrer">Curso em Video</a>
-  <p>For the <b>Portuguese </b>speakers out there willing to get started with Python, <b>Curso em Video</b> might be the way to go. It has one of the best (if not the best) free Python courses I've found so far.</p>
-  <p>They also have courses on other programming languages and technologies, which I highly recommend.</p>
- 
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h4 class="w3-text-teal">General Data Analytics Content</h4>
+      <a href="https://www.youtube.com/channel/UC7cs8q-gJRlGwj4A8OmCmXg/" target="_blank" rel="noopener noreferrer">Alex The Analyst</a>
+      <p>In his channel, Alex Freberg shares precious tips that both new and more experienced Data Analysts can benefit from. It includes SQL tutorials, suggestions and clear guidance on how to build a portfolio, course recommendations, and much more.</p>
+      
+      <a href="https://www.mavenanalytics.io/" target="_blank" rel="noopener noreferrer">Maven Analytics</a>
+      <p>Fantastic content delivered in an organised and clear fashion. They have their own platform, but you can also find them in other platforms such as Udemy, LinkedIn Learning and YouTube.</p>
 
+      <h4 class="w3-text-teal">SQL</h4>
+      <a href="https://www.youtube.com/channel/UCnz-ZXXER4jOvuED5trXfEA" target="_blank" rel="noopener noreferrer">techTFQ</a>
+      <p>This is a great Data Analytics YouTube channel, with especially good tutorials on <b>SQL</b> and Python.</p>
+      <a href="https://www.khanacademy.org/computing/computer-programming/sql?ref=resume_learning#sql-basics" target="_blank" rel="noopener noreferrer">Khan Academy</a>
+      <p>There are plenty of high quality courses freely available on this platform and <b>SQL basics</b> is one of them.</p>
 
-</td>
+      <h4 class="w3-text-teal">Python</h4>
+      <a href="https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g" target="_blank" rel="noopener noreferrer">Corey Schafer</a>
+      <p>This is one of those channels I wish I had found earlier. Learning a programming language is often an overwhelming experience, at least it has been the case for me. Finding professionals like Corey Schafer, whith such clear explanations has definetely helped make my learning journey a bit less bumpy and I wish more people can benefit from his work.</p>
+      <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" target="_blank" rel="noopener noreferrer">Curso em Video</a>
+      <p>For the <b>Portuguese </b>speakers out there willing to get started with Python, Curso em Video might be the way to go. It has one of the best (if not the best) free Python courses I've found so far. </p>
 
-</table>
+      <h4 class="w3-text-teal">Power BI</h4>
+      <a href="https://www.youtube.com/channel/UCJ7UhloHSA4wAqPzyi6TOkw" target="_blank" rel="noopener noreferrer">Curbal</a>
+      <p>Ruth Pozuelo is a Microsoft Data Platform MVP. Her YouTube channel, <b>Curbal</b>, has tone of information on Power BI, including her view on new features, tips on DAX, M, and so on.</p>
+      <a href="https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w" target="_blank" rel="noopener noreferrer">Guy in a Cube</a>
+      <p>Similarly to Curbal, this channel is likely to have almost everything you need to know about Power BI.</p>
+      <a href="https://www.sqlbi.com/" target="_blank" rel="noopener noreferrer">sqlbi</a>
+      <p>sqlbi is managed by the Power BI experts Marco Russo and Alberto Ferrari. The content they produce is great, especially when it comes to DAX and data modeling.</p>
+
+      <h4 class="w3-text-teal">Other Microsoft Technologies</h4>
+      <a href="https://docs.microsoft.com/en-us/learn/" target="_blank" rel="noopener noreferrer">Microsoft Learn</a>
+      <p>I've used Microsoft Learn for both preparing for certifications and brushing up on several solutions. I didn't used to be a big fan of Microsoft's documentation, but I have to admit that Microsoft has been doing a great job at improving its training materials and delivery methods.</p>
+
+      <h4 class="w3-text-teal">Platforms to Practice Coding</h4>
+      <p>It's highly recommended that you put your skills into practice as much as possible, which you can do by creating your own portfolio. You can also practice coding for free on websites such as:
+      <p><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></p>
+      <p><a href="https://www.hackerrank.com/" target="_blank" rel="noopener noreferrer">Hacker Rank</a></p>
+      <p><a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">LeetCode</a></p>
+      
+  </div>
+  
+<!-- END MAIN -->
+</div>
 
 </body>
 </html>
